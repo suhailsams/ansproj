@@ -12,5 +12,5 @@ tasks:
       state: started	 
   - name: copy code from jenkins
     copy:
-      src: /var/lib/jenkins/workspace/ansproj/
+      src: /var/lib/jenkins/workspace/ansproj/index.html
       dest: /var/www/html/
